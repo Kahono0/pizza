@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	</head>
+	<body>
+		<div id="row">
+			<h1>Order Your Pizza</h1>
+		</div>
+			<!--<form method="post">-->
+		<div id="row">
+		  <span id="add"></span>
+			<div id="col">
+				<label for="size">What size:</label><br>
+				<select id="size">
+				  <option selected disabled >Size</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select><br>
+        <br><label for="crust">Choose preferred Crust:</label><br>
+        <select id="crust">
+          <option selected disabled>crust</option>
+          <option value="crust1">Crust 1</option>
+          <option value="crust2">Crust 2</option>
+          <option value="crust3">Crust 3</option>
+        </select><br>
+        <br><label for="topping" id="topl">Choose your preferred topping:</label><br>
+        <select id="topping">
+          <option selected disabled>Topping</option>
+          <option value="t1">Topping 1</option>
+          <option value="t2">Topping 2</option>
+          <option value="t3">Topping 3</option>
+        </select><br><br>
+        <button id="addtopping">+Add Topping</button>
+         <div>
+          Your toppings:<span id="toplist">0</span>
+        </div>
+        <br><br>
+        <button id="place">Place Order</button>
+        <button id="addorder">+Add order</button>
+        <br>
+        <button id="finish">Check out</button>
+      </div>
+    </div>
+    <div id="summary">
+      
+    </div>
+    <script src="index.js"></script>
+  <!--</form>-->
+</body>
